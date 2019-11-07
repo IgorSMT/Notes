@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Page2">
+    <ContentPage.Content>
+        <StackLayout Margin="10,200,10,10">
+
+            <Editor x:Name="editor"
+                    Placeholder="Enter your label"
+                    FontAttributes="Bold"
+                    HeightRequest="50"
+            />
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Text="Save"
+                        Clicked="OnSaveTitleButtonCliked"
+                />
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

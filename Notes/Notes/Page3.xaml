@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Page3">
+    <ContentPage.Content>
+
+        <ListView x:Name="MyListView"
+            CachingStrategy="RecycleElement">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+
+                                <Label Text="Lable:" 
+                                       Grid.Column="0" Grid.Row="0"
+                                       HorizontalOptions="Center" FontAttributes="Bold"
+                                />
+
+                                <Label Text="{Binding Label}"
+                                       Grid.Column="1" Grid.Row="0"
+                                       HorizontalOptions="Center" FontAttributes="Bold"
+                                />
+
+                                <Label Text="Added:"
+                                       Grid.Column="0" Grid.Row="1"
+                                       HorizontalOptions="Center" FontAttributes="Bold"
+                                />
+
+                                <Label Text="{Binding Date}"
+                                       Grid.Column="1" Grid.Row="1"
+                                       HorizontalOptions="Center" FontAttributes="Bold"
+                                />
+                                
+                            </Grid>
+
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

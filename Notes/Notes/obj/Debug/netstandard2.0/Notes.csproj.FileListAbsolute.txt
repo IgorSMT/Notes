@@ -1,0 +1,14 @@
+C:\Users\Storchak\source\repos\Notes\Notes\Notes\bin\Debug\netstandard2.0\Notes.deps.json
+C:\Users\Storchak\source\repos\Notes\Notes\Notes\bin\Debug\netstandard2.0\Notes.dll
+C:\Users\Storchak\source\repos\Notes\Notes\Notes\bin\Debug\netstandard2.0\Notes.pdb
+C:\Users\Storchak\source\repos\Notes\Notes\Notes\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Storchak\source\repos\Notes\Notes\Notes\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Storchak\source\repos\Notes\Notes\Notes\obj\Debug\netstandard2.0\Notes.csproj.CoreCompileInputs.cache
+C:\Users\Storchak\source\repos\Notes\Notes\Notes\obj\Debug\netstandard2.0\Notes.AssemblyInfoInputs.cache
+C:\Users\Storchak\source\repos\Notes\Notes\Notes\obj\Debug\netstandard2.0\Notes.AssemblyInfo.cs
+C:\Users\Storchak\source\repos\Notes\Notes\Notes\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Storchak\source\repos\Notes\Notes\Notes\obj\Debug\netstandard2.0\Notes.dll
+C:\Users\Storchak\source\repos\Notes\Notes\Notes\obj\Debug\netstandard2.0\Notes.pdb
+C:\Users\Storchak\source\repos\Notes\Notes\Notes\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+C:\Users\Storchak\source\repos\Notes\Notes\Notes\obj\Debug\netstandard2.0\Page3.xaml.g.cs
+C:\Users\Storchak\source\repos\Notes\Notes\Notes\obj\Debug\netstandard2.0\Notes.csprojAssemblyReference.cache

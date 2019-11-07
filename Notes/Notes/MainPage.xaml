@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Notes"
+             x:Class="Notes.MainPage">
+
+  
+    <StackLayout  Margin="10,35,10,10">
+        <Label x:Name="Label1" Text="{Binding Label, FallbackValue=Hello}" FontSize="Medium"
+           HorizontalOptions="Center" FontAttributes="Bold"
+        />
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <Button Text="Page 2"
+                    Grid.Column="0" Grid.Row="0"
+                    Clicked="OnPage2ButtonCliked"
+            />
+
+            <Button Text="Page 3"
+                    Grid.Column="1" Grid.Row="0"
+                    Clicked="OnPage3ButtonCliked"
+            />
+
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
