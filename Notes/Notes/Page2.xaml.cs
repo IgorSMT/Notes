@@ -32,7 +32,7 @@ namespace Notes
             LabelVievModelCollection.Add(title_data);
             var mainpage = new MainPage(LabelVievModelCollection);
             mainpage.BindingContext = title_data;
-            await Navigation.PushModalAsync(mainpage);
+            await Navigation.PushAsync(mainpage);
         }
 
     }

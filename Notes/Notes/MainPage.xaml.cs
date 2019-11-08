@@ -21,12 +21,12 @@ namespace Notes
 
         private async void OnPage2ButtonCliked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new Page2(LabelVievModelCollection));
+            await Navigation.PushAsync(new Page2(LabelVievModelCollection));
         }
 
         private async void OnPage3ButtonCliked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new Page3(LabelVievModelCollection));
+            await Navigation.PushAsync(new Page3(LabelVievModelCollection));
         }
     }
 }
